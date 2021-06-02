@@ -10,3 +10,11 @@ font-weight: bold;
 .fuente-normal{
     font-weight: 400;
 }
+.estilo-normal{
+    font-style: normal;
+}
+.estilo-italico{
+    font-style:italic;
+    font-weight: 900;
+    font-size: 32px;
+}
