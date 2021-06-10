@@ -1,57 +1,7 @@
-h1 {
-    font-family:'Courier New', Courier, monospace;
-}
-.big-font{
-    font-size: 100px;
-}
-.fuente-negita{
-font-weight: bold;
-}
-.fuente-normal{
-    font-weight: 400;
-}
-.estilo-normal{
-    font-style: normal;
-}
-.estilo-italico{
-    font-style:italic;
-    font-weight: 900;
-    font-size: 32px;
-}
-.fuente-zcool{
-    font-family: 'ZCOOL KuaiLe', cursive;
-}
-.font-cincel{
-    font-family:'Cinzel Decorative' ;
-    font-size: 32px;
-}
-span.font-crazy {
-font-weight: 900;
-font-family:'Indie Flower', cursive;
-font-size: 55px;
-color: red;
-}
-.color-darkcyan{
-    color: darkcyan;
-}
-.color-avianca{
-    color: rgb(220, 8, 20);
-}
-.limegreen{
-    color: #32cd32;
-}
-.color-unad{
-    color: rgb(100, 18, 26);
-}
-.espaciado-letras{
-    letter-spacing: 0.1em;
-}
-.espaciado-palabras{
-    letter-spacing: 00.6em;
-}
-.espaciado-lineas{
-    line-height: 2em;
-}
+
+
+
+
 /* cinzel-decorative-900 - latin */
 @font-face {
     font-family: 'Cinzel Decorative';

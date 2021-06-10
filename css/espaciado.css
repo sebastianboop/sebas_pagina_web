@@ -1,0 +1,9 @@
+.espaciado-letras{
+    letter-spacing: 0.1em;
+}
+.espaciado-palabras{
+    letter-spacing: 00.6em;
+}
+.espaciado-lineas{
+    line-height: 2em;
+}
