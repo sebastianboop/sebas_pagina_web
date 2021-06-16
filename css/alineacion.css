@@ -4,3 +4,9 @@
 .alineacion-izquierda{
     text-align: left;
 }
+.alineacion-centrada{
+    text-align: center;
+}
+.alineacion-justificada{
+    text-align: justify;
+}
