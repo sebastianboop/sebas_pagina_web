@@ -1,0 +1,15 @@
+.texto-indentado{
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 1.5em;
+
+}
+.texto-enfatizado{
+font-size: 5em;
+}
+blockquote{
+    font-style: italic;
+    color: darkcyan;
+    font-size: 2em;
+    text-align: right;
+}
