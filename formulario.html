@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>listas</title>
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>formulario</title>
 </head>
 <body>
     <ul>lista
@@ -19,20 +20,21 @@
          <li><a href="tienda.html">tienda</a></li>
          <li><a href="tablas.html">tablas</a></li>
          <li><a href="formulario.html">formulario</a></li>
-
      </ul>
-    <ul>lista desordenada
-        <li>inicio</li>
-      <li>compra</li>
-      <li>vende</li>
-      <li>contacta al desarrollador</li>
-    </ul>
-    <ol> lista ordenada
-        <li>arooz
-        </li>
-        <li>papa</li>
-        <li>yuca</li>
-        <li>azucar</li>
-    </ol>
+    <form class="formulario">
+        <h1>formulario de asistencia</h1>
+        <input class="controls" type="text" name="nombres" placeholder="ingrese su nombre">
+        <input class="controls" type="text" name="apellidos" placeholder="ingrese sus apellidos"> 
+        <input  class="controls"type="number" name="edad" placeholder="ingrese su edad(años)"> 
+        <input class="controls" type="text" name="institucion" placeholder="ingrese su institucion"> 
+        <input class="controls" type="text" name="curso" placeholder="ingrese su curso"> 
+
+
+        <input class="controls" type="email" name="email" placeholder="ingrese su email"> 
+        <input class="controls" type="password" name="password" placeholder="ingrese sus contraseña"> 
+        <input class="boton" type="submit">
+   
+
+    </form>
 </body>
 </html>
