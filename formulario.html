@@ -25,15 +25,44 @@
         <h1>formulario de asistencia</h1>
         <input class="controls" type="text" name="nombres" placeholder="ingrese su nombre">
         <input class="controls" type="text" name="apellidos" placeholder="ingrese sus apellidos"> 
-        <input  class="controls"type="number" name="edad" placeholder="ingrese su edad(años)"> 
         <input class="controls" type="text" name="institucion" placeholder="ingrese su institucion"> 
         <input class="controls" type="text" name="curso" placeholder="ingrese su curso"> 
+<br>
+       <div class="selectores"> <label >tipo de formacion</label>
+        <br>
+        <select name="tipo de formacion" >
+            <option value="tecnico">tecnico</option>
+            <option value="tecnologo">tecnologo</option>
+            <option value="profesional">profesional</option>
+        </select>
 
+        <br>
+     
+        <label for="">escoja su jornada de estudio</label><br>
+        <label> <input type="radio" name="jornada" value="mañana"> mañana</label>
+        <br>
+        <label> <input type="radio"name="jornada"  value="tarde"> tardes</label>
+        <br>
+        <label> <input type="radio"name="jornada"  value="noche"> noche</label>
 
+        <br>
+
+        <label for="">escoja sus materias, puede escoger varias opciones</label>
+        <br>
+        <label > <input type="checkbox" value="algoritmia"> algoritmia</label>
+        <br>
+        <label > <input type="checkbox" value="documentacion"> documentacion</label>
+        <br>
+        <label > <input type="checkbox" value="salud en el trabajo"> salud en el trabajo</label>
+        <br>
+        <label > <input type="checkbox" value="deporte"> deporte</label>
+        <br>
+        <label > <input type="checkbox" value="programacio java"> programacion java</label>
+    </div><br>
         <input class="controls" type="email" name="email" placeholder="ingrese su email"> 
         <input class="controls" type="password" name="password" placeholder="ingrese sus contraseña"> 
         <input class="boton" type="submit">
-   
+    
 
     </form>
 </body>
