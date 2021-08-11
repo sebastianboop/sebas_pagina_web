@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(64, 64, 64);
+    font-family:  'Roboto', sans-serif;;
+    line-height: 45px;
+}
+ul {
+    list-style: none;
+    text-align: right;
+    font-size: 1.3em;
+    color: white;
+
+}
+li{
+    display: inline-block;
+    padding: 15 px;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.content-main {
+    margin: 3em;
+}
