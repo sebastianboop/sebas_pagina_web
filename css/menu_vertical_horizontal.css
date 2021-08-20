@@ -1,0 +1,12 @@
+.menu_horizontal{
+    display: inline-block;
+}
+li{
+    display: inline;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    border left: 1px solid ;
+}
