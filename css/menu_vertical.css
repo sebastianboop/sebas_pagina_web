@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    height: 100%;
+    background-color: rgb(172, 140, 73);
+    overflow: auto;
+}
+ul{
+    list-style: none;
+    margin: 40px 30px 40px 25px;
+
+}
+li{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
+}
+i{
+    margin-right: 10px;
+}
+.contenido{
+    padding: 0 0 0 300px;
+}
