@@ -1,12 +1,43 @@
 .menu_horizontal{
     display: inline-block;
+    background-color:rgb(249, 249, 249);
+    width: 100%;
 }
+ul{
+    text-align: center;
+}
+
 li{
     display: inline;
+    padding-left: 1px;
+    padding-right: 1px;
+    
     
 }
 a{
     text-decoration: none;
     color: black;
-    border left: 1px solid ;
+    border-right: 1px solid rgb(255, 107, 0);
+    padding-left:  5px;
+    padding-right: 5px;
+}
+.vertical_menu{
+    width: 250px;
+
+    
+
+}
+.vertical_a{
+    display: block;
+    text-align: left;
+    background-color: rgb(87, 87, 86);
+    color: rgb(249, 249, 249);
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5%;
+    border-right: none;
+}
+.vertical_li{
+
 }
