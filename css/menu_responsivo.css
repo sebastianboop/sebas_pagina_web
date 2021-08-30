@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
 .menuresponsivo {
+    position: fixed;
+    top: 0;
     background-color: aquamarine;
     width: 100%;
+    overflow: auto;
 }
 ul {
     list-style: none;
@@ -16,6 +20,9 @@ nav ul li a{
     color: black;
     font-size: 1.5em;
     padding: 20px;
+}
+nav ul li:hover {
+    background-color: tomato;
 }
 li {
     display: inline-block;
@@ -33,6 +40,7 @@ text-align: left;
     display: none;
     background-color: #011826;
     text-align: left;
+    
 }
 nav ul li:hover .items_contactenos {
     display: block;
@@ -43,4 +51,59 @@ nav ul li:hover .items_productos {
     display: block;
     width: 130%;
     text-align: left;
+}
+nav ul li .items_contactenos li  {
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+nav ul li .items_productos li  {
+    display: block;
+    border-bottom:  1px solid rgba(255, 255, 255, .5);
+    
+}
+nav ul li .items_productos li a{
+    display: block;
+    color: white;
+}
+
+nav ul li .items_contactenos li a{
+   display: block;
+    color: white;
+}
+h1{
+    
+    margin:85px 35px 35px 35px;
+    text-align: right;
+    color: rgb(64, 64, 64, .8);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenido {
+    margin: 35px;
+}
+p{
+    font-size: 1.3em;
+    line-height: 1.4em;
+    text-align: justify;
+}
+@media only screen  and (max-width:650px){
+.menuresponsivo {
+    position: fixed;
+    height: 100%;
+    width: 40%;
+    
+}
+nav ul li{
+    display: block;
+}
+nav ul {
+    text-align: left;
+}
+h1 {
+    margin-top: 35px;
+    margin-left: 160px;
+}
+p {
+    margin-left: 170px;
+}
+
 }
