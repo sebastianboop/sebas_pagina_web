@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
 }
-
+.menu-bar{
+    display: none;
+}
 .menuresponsivo {
-    position: fixed;
-    top: 0;
+    /*position: fixed;
+    top: 0; */
     background-color: aquamarine;
     width: 100%;
-    overflow: auto;
+    /*overflow: auto;*/
 }
 ul {
     list-style: none;
@@ -86,11 +88,31 @@ p{
     text-align: justify;
 }
 @media only screen  and (max-width:650px){
+.menu-bar{
+    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #e6344a;
+}
+.bt-menu{
+    display: block;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu-bar span {
+    font-size: 40px;
+    float: right;
+}
 .menuresponsivo {
     position: fixed;
     height: 100%;
     width: 40%;
-    
+    top: 63px;
+
 }
 nav ul li{
     display: block;
@@ -99,7 +121,7 @@ nav ul {
     text-align: left;
 }
 h1 {
-    margin-top: 35px;
+    margin-top: 100px;
     margin-left: 160px;
 }
 p {
