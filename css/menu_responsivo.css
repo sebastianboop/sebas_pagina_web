@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menuresponsivo {
+    background-color: aquamarine;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    text-align: right;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 20px;
+}
+li {
+    display: inline-block;
+    position: relative;
+    
+}
+.items_productos {
+    position: absolute;
+    display: none;
+background-color: #011826;
+text-align: left;        
+}
+.items_contactenos {
+    position: absolute;
+    display: none;
+    background-color: #011826;
+    text-align: left;
+}
+nav ul li:hover .items_contactenos {
+    display: block;
+    width: 130%;
+    text-align: left;
+} 
+nav ul li:hover .items_productos {
+    display: block;
+    width: 130%;
+    text-align: left;
+}
