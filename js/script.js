@@ -14,4 +14,7 @@ function main(){
             });
         }
     });
+    $('.submenu').click(function(){
+        $(this.items_productos('.items_productos').slidetoggle();)
+    })
 }
