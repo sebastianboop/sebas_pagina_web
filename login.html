@@ -7,20 +7,26 @@
     <title>login</title>
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="icons/all.css">
+    <style type="text/css">
+        input::placeholder ´{
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
+    <div class="main"></div>
     <div class="main-content">
         <form class="login-content" action="#">
+            <i class="fas fa-user-circle fa-8x" style="padding-bottom: 10px;color: rgba(64, 64, 64, .4);"></i>
             <h2>iniciar sesión</h2>
-            <i class="fas fa-user-circle"></i>
             <div class="imput-name">
-                <i class="fas fa-user"></i><input type="text" placeholder="usuario">
-            </div>
+                <i class="fas fa-user"></i><input style="background-color: transparent; outline: none;" type="text" placeholder="usuario">
+            </div><br>
             <div class="input-pass">
-                <i class="fas fa-lock"></i> <input type="text" placeholder="contraseña">
-            </div>
-            <a class="remember-pass" href="#">olvide mi contraseña </a><br>
-            <button type="submit">iniciar sesión</button>
+                <i class="fas fa-lock"></i> <input style="background-color: transparent; outline: none" class="password" type="password" placeholder="contraseña">
+            </div><br>
+            <a class="remember-pass" href="#">olvide mi contraseña </a><br><br>
+            <button class="submit" type="submit">iniciar sesión</button>
         </form>
 </div>
 </body>
