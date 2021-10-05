@@ -27,6 +27,7 @@ body{
 h2{
     font-size: 1.8em;
     color: rgb(64, 64, 64,);
+    text-align: center;
 }
 .input-pass{
     border: none;
