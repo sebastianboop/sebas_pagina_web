@@ -1,0 +1,12 @@
+.main-content{
+    background-color: rgba(64, 64, 64, .4);
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
