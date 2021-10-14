@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calendario{
+    /*background-color: aqua;*/
+    height: 500px;
+    width: 900px;
+    justify-content:center;
+    align-items: center;
+}
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 50px 65px 65px 65px 65px 65px;
+    padding-top: 10;
+}
+li{
+    background-color:rgba(64, 64, 64, .2);
+    padding: 0px;
+    /*border: 2px solid black;*/
+    margin: 5px;
+}
+.primer-dia{
+    grid-column-start: 4;
+}
+.nombre-dia{
+    background-color: #eee;
+    font-weight: bold;
+}
+.festivo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.nombrefestivo{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
