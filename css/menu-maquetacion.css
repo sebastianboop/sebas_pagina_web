@@ -36,21 +36,128 @@ grid-area: encabezado;
     background-color: yellowgreen;
 }
 .card-1{
+    display: inline-block;
     grid-area: card-1;
+    text-align: center;
 }
 .card-2{
     grid-area: card-2;
+    display: inline-block;
+    text-align: center;
 }
 .card-3{
     grid-area: card-3;
+    display: inline-block;
+    text-align: center;
 }
 .card-4{
     grid-area: card-4;
+    display: inline-block;
+    text-align: center;
 }
 .card-5{
     grid-area: card-5;
+    display: inline-block;
+    text-align: center;
 }
 .card-6{
     grid-area: card-6;
+    display: inline-block;
+    text-align: center;
+} 
+@media (max-width:1340px){
+    .main-container{
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1200px;
+        gap: 20px;
+        grid-template: "encabezado      nav-bar        " 100px
+                        "img-principal  img-principal  " 350px
+                        "card-1         card-2         " auto
+                        "card-3         card-4         " auto
+                        "card-5         card-6         " auto;
+    }   
+    .cards{
+        background-color: yellow;
+    }
+    .card-1{
+        display: inline-block;
+        grid-area: card-1;
+        text-align: center;
+    }
+    .card-2{
+        grid-area: card-2;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-3{
+        grid-area: card-3;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-4{
+        grid-area: card-4;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-5{
+        grid-area: card-5;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-6{
+        grid-area: card-6;
+        display: inline-block;
+        text-align: center;
 }
-
+@media (max-width:990px){
+    .main-container{
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1200px;
+        gap: 20px;
+        grid-template:  "encabezado    " 100px
+                        "nav-bar       " 100px
+                        "img-principal " 350px
+                        "card-1        " auto
+                        "card-2        " auto
+                        "card-3        " auto
+                        "card-4        " auto
+                        "card-5        " auto
+                        "card-6        " auto;
+    } 
+    .cards{
+        background-color: blue;
+    }
+    .card-1{
+        display: inline-block;
+        grid-area: card-1;
+        text-align: center;
+    }
+    .card-2{
+        grid-area: card-2;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-3{
+        grid-area: card-3;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-4{
+        grid-area: card-4;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-5{
+        grid-area: card-5;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-6{
+        grid-area: card-6;
+        display: inline-block;
+        text-align: center;
+}
