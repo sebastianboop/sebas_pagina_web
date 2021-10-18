@@ -21,7 +21,7 @@
                     "card-4         card-5         card-6"auto;
 }
 .encabezado{
-background-color: blueviolet;
+/*background-color: blueviolet;*/
 grid-area: encabezado;
 }
 .nav-bar{
@@ -33,7 +33,7 @@ grid-area: encabezado;
     grid-area: img-principal;
 }
 .cards{
-    background-color: yellowgreen;
+   /* background-color: yellowgreen;*/
 }
 .card-1{
     display: inline-block;
@@ -79,7 +79,7 @@ grid-area: encabezado;
                         "card-5         card-6         " auto;
     }   
     .cards{
-        background-color: yellow;
+       /* background-color: yellow;*/
     }
     .card-1{
         display: inline-block;
@@ -129,7 +129,7 @@ grid-area: encabezado;
                         "card-6        " auto;
     } 
     .cards{
-        background-color: blue;
+        /*background-color: blue;*/
     }
     .card-1{
         display: inline-block;
