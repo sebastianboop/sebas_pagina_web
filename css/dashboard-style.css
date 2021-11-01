@@ -1,0 +1,37 @@
+html body{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    margin: 0;
+}
+nav ul li, nav ul li a, nav ul li a i{
+text-decoration: none;
+list-style: none;
+color: white;
+}
+.valor-total{
+    font-size: 1.5em;
+}
+
+.main-container{
+    display: grid;
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 20px;
+    grid-template:  "nav   contenido-principal contenido-principal " 300px
+}
+nav{
+    background-color: rgb(1, 139, 211);
+    grid-area: nav;
+    position: fixed;
+    height: 100%;
+    width: 180px;
+    
+}
+.contenido-principal{
+    background-color: cornsilk;
+    grid-area: contenido-principal;
+    height: 710px;
+}
