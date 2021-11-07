@@ -7,47 +7,49 @@
     <title>pagina-bootstrap</title>
     <link rel="stylesheet" href="css/boopstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pagina_bootstrap_styles.css">
 
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Imperium Barberia</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">pagina principal</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="pagina2_bootstrap.html">nuestra misión y visión</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  servicios
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">atencion al Usuario</a></li>
+                  <li><a class="dropdown-item" href="#">productos</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link disabled">trabaja con nosotros</a>
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" type="search" placeholder="busqueda avanzada" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">buscar</button>
             </form>
           </div>
         </div>
       </nav>
+      <br><br>
     <h1>IMPERIO BARBER</h1>
-
+<br><br>
     <div class="container">
         
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -77,9 +79,7 @@
           <div class="container">
 
             <div class="row">
-                <div class="col-3">
-                    hola
-                </div>
+                
                 <div class="col-3">
                     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                         Nuestros servicios
@@ -101,7 +101,7 @@
                 <div class="col-3">
                     <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
+    buscar barberias en tu zona
   </button>
   
   <!-- Modal -->
@@ -109,24 +109,37 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLabel">barberias en la zona</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ...
+        puedes acercarte a la imperium barber de San Marcos
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">volver a buscar</button>
         </div>
       </div>
     </div>
   </div>
   
-                </div>
-                <div class="col-3">hello
-           
-                </div>
+                
+              </div>
+              <div class="col-3">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">¿Quienes somos?</button>
+
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasTopLabel">Imperium Barberia</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+  somos una nueva definicion de barberia, más que moda somos un estilo y una cultura en estetica masculina.
+  </div>
+</div>
+         
+              </div>
+              
             </div>
        
           </div>
@@ -136,11 +149,143 @@
 
           
     </div>
+
+<div class="container">
+  <h2><br>nuestros barberos<br><br><br></h2>
+
+  <div class="row">
+    <div class="col-1"></div>
+  <div class="card col-3 card-style" style="width: 18rem;">
+    <img src="img/barbero1.jpg" class="card-img-top" alt="..."height="300px">
+    <div class="card-body">
+      <h5 class="card-title">neo</h5>
+      <p class="card-text">experto en cortes modernos, con una especializacion en colorimetria</p>
+      <a href="#" class="btn btn-primary">Agendar cita</a>
+    </div>
+  </div>
+  <div class="card col-3 card-style" style="width: 18rem;">
+    <img src="img/barbero2.jpg" class="card-img-top" alt="..."height="300px">
+    <div class="card-body">
+      <h5 class="card-title">Carlos barber</h5>
+      <p class="card-text">mas de 10 años de experiencia en el sector, con especialidad en cortes afro</p>
+      <a href="#" class="btn btn-primary">Agendar cita</a>
+    </div>
+  </div>
+  <div class="card col-3 card-style" style="width: 18rem;">
+    <img src="img/barbero3.jpg" class="card-img-top" alt="..."height="300px">
+    <div class="card-body">
+      <h5 class="card-title">Saruma barber</h5>
+      <p class="card-text">la nueva revelacion de la barberia </p>
+      <a href="#" class="btn btn-primary">Agendar cita</a>
+    </div>
+  </div>
+  <div class="col-1"></div>
+  <div class="card col-3 card-style" style="width: 18rem;">
+    <img src="img/barbero4.jpg" class="card-img-top" alt="..."height="300px">
+    <div class="card-body">
+      <h5 class="card-title">pantera</h5>
+      <p class="card-text">Las mejores figuras en la zona</p>
+      <a href="#" class="btn btn-primary">Agendar cita</a>
+    </div>
+  </div>
+  <div class="card col-3 card-style" style="width: 18rem;">
+    <img src="img/barbero4.jpg" class="card-img-top" alt="..."height="300px">
+    <div class="card-body">
+      <h5 class="card-title">pantera</h5>
+      <p class="card-text">Las mejores figuras en la zona</p>
+      <a href="#" class="btn btn-primary">Agendar cita</a>
+    </div>
+  </div>
+  <div class="card col-3 card-style" style="width: 18rem;">
+    <img src="img/barbero4.jpg" class="card-img-top" alt="..."height="300px">
+    <div class="card-body">
+      <h5 class="card-title">pantera</h5>
+      <p class="card-text">Las mejores figuras en la zona</p>
+      <a href="#" class="btn btn-primary">Agendar cita</a>
+    </div>
+  </div>
+</div>
+</div>
+<br><br><br>
+<div class="container">
+  <div class="card col- card-style" >
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Vo-lktj2gJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-right: auto;margin-left: auto;"></iframe>
+    <div class="card-body">
+      <h5 class="card-title">Nuestra escuela</h5>
+      <p class="card-text">video de referencia</p>
+      <a href="#" class="btn btn-primary">ir a sitio principal</a>
+    </div>
+  </div>
+  <br><br><br>
+</div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="mision y vision" data-bs-content="en la pagina 2 encontraras nuestra misison y vision">
+            mision y vision
+          </button>
+        </div>
+        <div class="col-3">
+          <button type="button" class="btn btn-primary" id="liveToastBtn">Habla con nosotros</button>
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="img/barber-logo.jpg" class="rounded me-2" alt="..." width="30px"height="30px">
+      <strong class="me-auto">Imperio Barber</strong>
+      <small>hace un momento</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hola, bienvenido a imperio barber, en un momento un asesor se comunicara contigo.
+    </div>
+  </div>
+</div>
+        </div>
+<div class="col-3"></div>
+        <div class="col-3">
+          <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="En la pagina 3 sabras como trabajar con nosotros">
+            Trabaja con nosotros
+          </button>
+        </div>
+      </div>
+     
+    </div>
+   <br><br><br>
+    <div class="container" style="text-align: center; margin-left: auto;margin-right: auto;">
+      <div class="row">
+        <div class="col-5"></div>
+        <div class="col-6">
+          <nav aria-label="Page navigation example" style="margin: 0 auto;padding-left:auto; padding-right: auto;">
+            <ul class="pagination mx-auto" style="margin: 0 auto;padding-left:auto; padding-right: auto;">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="pagina_bootstrap.html">1</a></li>
+              <li class="page-item"><a class="page-link" href="pagina2_bootstrap.html">2</a></li>
+              <li class="page-item"><a class="page-link" href="pagina3_bootstrap.html">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+     
+    </div>
+    
           <script src="js/validation.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/script-bootstrap.js"></script>
 <script src="js/alerta.js"></script>
+<script src="js/toast.js"></script>
 
 </body>
 </html>
