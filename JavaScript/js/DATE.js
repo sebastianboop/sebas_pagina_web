@@ -42,4 +42,13 @@ console.log("feliz cumpleaños luisa")
 }else{console.log("nadie cumple años hoy")};
  console.log("===Cuantos años voy a cumplir===");
 
+var fechaNacimiento= new Date("may 5 2001");
+ var anioActual= fechaHoy.getFullYear();
+ var anioNac=fechaNacimiento.getFullYear();
+ var anioDIFF=anioActual-anioNac;
+ console.log("yo naci en el "+ anioNac);
+ console.log("y estamos en el "+anioActual);
 
+ console.log("asi que tengo "+ anioDIFF);
+
+ console.log("asi que voy a cumplir "+ (anioDIFF+1));
