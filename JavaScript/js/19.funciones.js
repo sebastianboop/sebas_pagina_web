@@ -12,3 +12,30 @@
      };
      alert("Hora actual ="+ HoraActual +": "+minActual);
  }
+
+ function Presentacion(nombre, titulado){
+     alert("Bienvenido "+ nombre + " del ADSI "+ titulado)
+     
+ }
+ //funciones con retorno
+
+ function validarDescuento(compra){
+     var total= 0;
+     // si la compra es superior a 10.000 tiene descuento del 10%
+     if(compra>=10000){
+         total=compra * .9;
+       
+     }
+     // si la compra esta entre 5 mil y 10 mil, el descuento es de 5%
+     else if(compra>5000 && compra<10000){
+         total=compra*.95;
+     }
+     else{
+         compra=total;
+     }
+     return total;
+ }
+
+ function calculardescuento(compra){
+     alert("costo total: " + validarDescuento(compra))
+ }
