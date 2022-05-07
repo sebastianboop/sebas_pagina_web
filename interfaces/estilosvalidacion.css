@@ -1,0 +1,48 @@
+body{
+    background-image: url(fondo.jpg);
+}
+.header{
+    height: 200px;
+    width:  100%;
+    background-color: rgba(128, 128, 128, .5);
+    border-radius: 10px;
+    border-style: solid;
+}
+.titulo{
+text-align: center;
+color: white;
+padding: auto;
+margin-top: 50px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: auto;
+
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+nav ul li :hover{
+    background-color:#c9c9c9;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    border-left: solid 1px black;
+    padding-left: 15px;
+}
+nav ul li a :hover{
+    font-weight: 1.5em;
+}
+
+div form{
+    border:blue 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    background:rgba(255,99,71,.5);
+}
+label{
+    font-weight: 700;
+}
