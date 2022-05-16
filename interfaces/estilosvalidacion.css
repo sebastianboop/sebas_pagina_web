@@ -37,7 +37,7 @@ nav ul li a :hover{
     font-weight: 1.5em;
 }
 
-div form{
+div .formulario-principal{
     border:blue 1px solid;
     border-radius: 5px;
     padding: 10px;

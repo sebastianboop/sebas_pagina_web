@@ -1,0 +1,63 @@
+.subtotal, .pago, .menos, .cantidad, .mas, .precio{
+    color: white;
+    font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+}
+.principal_container{
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    /*gap: 20px;*/
+    grid-template:  /*"subtotal subtotal   subtotal subtotal    subtotal    " auto*/
+                   /* "pago     pago       pago     pago        pago        " auto*/
+                    "empty-top  subtotal subtotal empty-topder" auto
+                    "empty-top2 pago     pago     empty-topd2"
+                    "empty-izq  imagen   descripcion empty    " auto/
+                     10px       auto     200px        1fr    ;
+}
+
+.subtotal{
+    background-color: aqua;
+    grid-area: subtotal;
+}
+.pago{
+    background-color: aquamarine;
+    grid-area: pago;
+}
+.imagen{
+    background-color: bisque;
+    grid-area: imagen;
+    display: grid;
+    grid-template: "menos cantidad mas" auto;
+}
+.imagen img{
+    width: 183px;
+    height: 232px;
+}
+.menos{
+    background-color: blanchedalmond;
+    display: flex;
+    grid-area: menos;
+}
+.descripcion{
+    background-color: blue;
+    
+    grid-area: descripcion;
+}
+.cantidad{
+    background-color: blueviolet;
+    display: flex;
+    grid-area: cantidad;
+}
+.mas{
+
+    background-color: blue;
+    display: flex;
+    grid-area: mas;
+}
+.precio{
+    background-color: blueviolet;
+    grid-area: precio;
+}

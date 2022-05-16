@@ -30,8 +30,8 @@
     <div class="container-sm">
 <br>
 <br>
-        <form onsubmit="validarFormulario('cod','descripcion','valor','stock');" class="row g-3" >
-            
+      <!--  <form onsubmit="validarFormulario('cod','descripcion','valor','stock');" class="row g-3" >-->
+            <div class="formulario-principal">
               <div class="mb-3 row">
                 <label for="inputPassword" class="col-sm-2 col-form-label">Codigo del producto</label>
                 <div class="col-sm-3">
@@ -60,10 +60,11 @@
 
 
               <div class="mb-3 row">
-                <button type="submit" class="btn btn-primary mb-10">Registrar</button>
+                <button type="submit" class="btn btn-primary mb-10" onclick="guardarInfo() ">Registrar</button>
 
               </div>
-          </form>
+            </div>
+          <!-- </form>-->
     </div>
 
 
