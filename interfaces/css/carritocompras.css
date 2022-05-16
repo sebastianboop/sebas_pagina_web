@@ -30,7 +30,7 @@
     background-color: bisque;
     grid-area: imagen;
     display: grid;
-    grid-template: "menos cantidad mas" auto;
+   
 }
 .imagen img{
     width: 183px;
