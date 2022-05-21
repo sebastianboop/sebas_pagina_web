@@ -4,7 +4,7 @@ function pruebaSuma(){
     let cantidad = document.getElementById("cantidad").innerHTML;
     if(cantidad> 0 && cantidad<10){
         
-    cantidad = Number(cantidad)+1;
+    cantidad =+ Number(cantidad);
     document.getElementById("cantidad").innerHTML = cantidad;
 
     }else{
