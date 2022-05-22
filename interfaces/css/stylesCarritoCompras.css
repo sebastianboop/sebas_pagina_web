@@ -1,16 +1,121 @@
-.contenedor-principal {
+.main-content{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: lato, sans-serif;
+    display: grid;
+    grid-template:  "subtotal       subtotal       subtotal       subtotal       empty          " 
+                    "procederalpago procederalpago procederalpago procederalpago procederalpago "
+                    "libro          libro          libro          vacio1         info           "
+                    "libro          libro          libro          vacio1         nuevovacio     "
+                    "restar         cantidad       sumar          vacio2         eliminar       "
+                    " vacio         vacio          vacio          vacio3         guardar        "/
+                    50px            50px           50px           50px           250px
+                    ;
+}
+.subtotal{
+grid-area: subtotal;
+}
+.USD ,.valorsubtotal{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.procederAlPago{
+    grid-area: procederalpago;
+    border: 1px solid black;
+    background-color: rgb(247, 231, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    height: 40px;
+    cursor: pointer;
+
+}
+.libro{
+    grid-area: libro;
+
+}
+.libro .imgcleanjavascript{
+    width: 150px;
+    height: 150px;
+}
+.info{
+    grid-area: info;
+}
+.restar{
+    grid-area: restar;
+    
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.cantidad{
+    grid-area: cantidad;
+}
+.sumar, .cantidad, .restar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.sumar, .restar{
+    background-color: rgb(96,96,96,.1);
+}
+.sumar{
+    grid-area: sumar;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.eliminar{
+    grid-area: eliminar;
+    border: 1px solid rgb(64,64,64, .3);
+    border-radius: 8px;
+    background-color: rgb(96,96,96,.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.eliminar label{
+    cursor: pointer;
+    font-size: 1.2em;
+}
+.guardarMasTarde{
+    grid-area: guardar;
+    border: 1px solid rgb(64,64,64, .3);
+    border-radius: 8px;
+    background-color: rgb(96,96,96,.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.guardarMasTarde label{
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+/*.contenedor-principal {
     margin-top: 30px;
     margin-left: 30px;
     font-family: lato, sans-serif;
     font-weight: regular;
     display: grid;
+    grid-template: "subtotal    subtotal subtotal    subtotal subtotal" auto
+                    "infoProductos infoProductos infoProductos infoProductos infoProductos"
+    ;
+    /*
     grid-template-columns: 50px        50px          50px     50px     250px;
     grid-template-areas:"subtotal      subtotal      subtotal subtotal subtotal"
                         "infoProductos infoProductos infoProductos infoProductos infoProductos"
                         "libro         libro         libro     libro infoLibro" 
                         "contenedor-1  contenedor-2   contenedor-3  contenedor-3 btn-eliminar"
                         "empty         empty           empty      empty      guardar-mas-tarde";
-}
+
+                    }
 .subtotal {
     grid-area: subtotal;
     font-size:1.2em;
@@ -116,3 +221,4 @@
 .vacio {
     grid-area: vacio;
 }
+*/
