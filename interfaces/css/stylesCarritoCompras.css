@@ -6,7 +6,7 @@
     grid-template:  "subtotal       subtotal       subtotal       subtotal       empty          " 
                     "procederalpago procederalpago procederalpago procederalpago procederalpago "
                     "libro          libro          libro          vacio1         info           "
-                    "libro          libro          libro          vacio1         nuevovacio     "
+                    "libro          libro          libro          vacio1         info           "
                     "restar         cantidad       sumar          vacio2         eliminar       "
                     " vacio         vacio          vacio          vacio3         guardar        "/
                     50px            50px           50px           50px           250px
@@ -39,7 +39,7 @@ grid-area: subtotal;
 }
 .libro .imgcleanjavascript{
     width: 150px;
-    height: 150px;
+    height: 195px ;
 }
 .info{
     grid-area: info;
