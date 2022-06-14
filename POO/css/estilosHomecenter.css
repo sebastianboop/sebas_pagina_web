@@ -1,7 +1,15 @@
+.navVisible{
+    display: block;
+}
+.navInvisible{
+    display: none;
+}
+
 nav{
     display: grid;
     grid-template: "icono   logo    vacio   buscar  cantidad    carrito    user"auto/
-                    1fr     1fr     10fr     2fr     1fr         1fr         2fr     ;
+                    35px    40px     10fr     2fr    35px         35px       35px      ;
+    
 }
 
 .sodimacLogo{
@@ -18,6 +26,9 @@ nav{
     width: 30px;
     height: 30px;
     grid-area: buscar;
+}
+.buscar:hover{
+    cursor: pointer;
 }
 .cantidad{
     width: 30px;
@@ -39,4 +50,43 @@ nav{
     width: 30px;
     height: 30px; 
     grid-area: user;
+    
+    margin-right: 2px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+.buscadorInvisible{
+    display: none;
+}
+.buscadorVisible{
+    display: block;
+}
+.buscadorEstilos{
+    width: 80%;
+    border-radius: 10%;
+    display: grid;
+    grid-template: "buscar2  input  adios"auto/
+                    35px     1fr    40px;
+    
+}
+.buscar2{
+    width: 30px;
+    height: 30px;
+    grid-area: buscar2;
+
+}
+.input{
+    width: 30px;
+    height: 30px;
+    grid-area: input;
+    width: 98%;
+    border: none;
+}
+.x{
+    height: 30px;
+    width: 30px;
+    grid-area: adios;
+}
+.x:hover{
+    cursor: pointer;
 }

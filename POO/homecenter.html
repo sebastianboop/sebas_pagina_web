@@ -8,15 +8,25 @@
     <link rel="stylesheet" href="css/estilosHomecenter.css">
 
 </head>
-<body>
-    <nav>
+<body><div id="divNav" class="navVisible">
+    <nav >
         <label for=""class="icono">&#9776</label>
         <img src="img/sodimac.png" alt="" class="sodimacLogo">
-        <img src="img/buscar.png"  class="buscar" alt="">
+        <img id="buscar" src="img/buscar.png"  class="buscar" alt="">
         <div class="cantidad">0</div>
         <img src="img/carrito.png"class="carrito" alt="">
         <img src="img/user.png" alt="" class="user">
-
+    
     </nav>
+</div>
+    <div class="buscadorInvisible" id="barraBusqueda">
+        <div class="buscadorEstilos">
+        <img src="img/buscar.png"  class="buscar2" alt="">
+        <input type="text" placeholder="Busque aqui" class="input">
+        <img src="img/x.png" alt="" class="x" id="salir">
+        </div>
+    </div>
+
+<script src="js/scriptHomecenter.js"></script>
 </body>
 </html>
