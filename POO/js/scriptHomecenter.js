@@ -16,3 +16,20 @@ salir.addEventListener("click",()=>{
     navegador.classList.remove("navInvisible");
     navegador.classList.add("navVisible");
 })
+
+let botonChatear=document.getElementById("chatear");
+let cuadroDialogo=document.getElementById("cuadroDialogo");
+let salirCuadroDialogo=document.getElementById("salirCuadrodialogo");
+botonChatear.addEventListener("click",()=>{
+    botonChatear.classList.remove("chatear");
+    botonChatear.classList.add("chatearInvisible");
+    cuadroDialogo.classList.remove("cuadroDialogoInvisible");
+    cuadroDialogo.classList.add("cuadroDialogoVisible");
+})
+
+salirCuadroDialogo.addEventListener("click",()=>{
+    cuadroDialogo.classList.remove("cuadroDialogoVisible");
+    cuadroDialogo.classList.add("cuadroDialogoInvisible");
+    botonChatear.classList.remove("chatearInvisible");
+    botonChatear.classList.add("chatear");
+})

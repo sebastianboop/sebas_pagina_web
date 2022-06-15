@@ -90,3 +90,25 @@ nav{
 .x:hover{
     cursor: pointer;
 }
+.chatear{
+    width: 70px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    display: block;
+}
+.chatearInvisible{
+    display: none;
+}
+.cuadroDialogoInvisible{
+display: none;
+height: 200px;
+width: 200px;
+background-color: aqua;
+}
+.cuadroDialogoVisible{
+    display: block;
+    height: 200px;
+width: 200px;
+background-color: aqua;
+}
