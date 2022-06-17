@@ -90,21 +90,37 @@ nav{
 .x:hover{
     cursor: pointer;
 }
-.chatear{
-    width: 70px;
-    height: 30px;
-    background-color: blue;
-    color: white;
-    display: block;
+.carrusel{
+    height: 230px;
+    border: 1px solid black;
 }
+.chatear{
+  float: right;
+}
+
 .chatearInvisible{
     display: none;
 }
 .cuadroDialogoInvisible{
-display: none;
+/*display: none;*/
 height: 200px;
 width: 200px;
 background-color: aqua;
+}
+.encabezado{
+    display: grid;
+}
+.iconoCuadro{
+    grid-area: menuCuadro;
+}
+.logoAna{
+    grid-area: logoAna;
+}
+.ReinicarCuadroDailogo{
+    grid-area: reinicarCuadroDialogo;
+}
+.salirCuadroDialogo{
+    grid-area: salirCuadroDialogo;
 }
 .cuadroDialogoVisible{
     display: block;
