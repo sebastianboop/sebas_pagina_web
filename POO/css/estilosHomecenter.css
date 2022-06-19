@@ -1,0 +1,130 @@
+.navVisible{
+    display: block;
+}
+.navInvisible{
+    display: none;
+}
+
+nav{
+    display: grid;
+    grid-template: "icono   logo    vacio   buscar  cantidad    carrito    user"auto/
+                    35px    40px     10fr     2fr    35px         35px       35px      ;
+    
+}
+
+.sodimacLogo{
+    width: 35px;
+    height: 30px;
+    grid-area: logo;
+}
+
+.icono{
+    font-size: 30px;
+    grid-area: icono;
+}
+.buscar{
+    width: 30px;
+    height: 30px;
+    grid-area: buscar;
+}
+.buscar:hover{
+    cursor: pointer;
+}
+.cantidad{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 1.8em;
+    grid-area: cantidad;
+}
+.carrito{
+    width: 30px;
+    height: 30px;
+    grid-area: carrito;
+}
+.user{
+    width: 30px;
+    height: 30px; 
+    grid-area: user;
+    
+    margin-right: 2px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+.buscadorInvisible{
+    display: none;
+}
+.buscadorVisible{
+    display: block;
+}
+.buscadorEstilos{
+    width: 80%;
+    border-radius: 10%;
+    display: grid;
+    grid-template: "buscar2  input  adios"auto/
+                    35px     1fr    40px;
+    
+}
+.buscar2{
+    width: 30px;
+    height: 30px;
+    grid-area: buscar2;
+
+}
+.input{
+    width: 30px;
+    height: 30px;
+    grid-area: input;
+    width: 98%;
+    border: none;
+}
+.x{
+    height: 30px;
+    width: 30px;
+    grid-area: adios;
+}
+.x:hover{
+    cursor: pointer;
+}
+.carrusel{
+    height: 230px;
+    border: 1px solid black;
+}
+.chatear{
+  float: right;
+}
+
+.chatearInvisible{
+    display: none;
+}
+.cuadroDialogoInvisible{
+/*display: none;*/
+height: 200px;
+width: 200px;
+background-color: aqua;
+}
+.encabezado{
+    display: grid;
+}
+.iconoCuadro{
+    grid-area: menuCuadro;
+}
+.logoAna{
+    grid-area: logoAna;
+}
+.ReinicarCuadroDailogo{
+    grid-area: reinicarCuadroDialogo;
+}
+.salirCuadroDialogo{
+    grid-area: salirCuadroDialogo;
+}
+.cuadroDialogoVisible{
+    display: block;
+    height: 200px;
+width: 200px;
+background-color: aqua;
+}
