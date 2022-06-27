@@ -19,7 +19,7 @@ salir.addEventListener("click",()=>{
 
 let botonChatear=document.getElementById("chatear");
 let cuadroDialogo=document.getElementById("cuadroDialogo");
-let salirCuadroDialogo=document.getElementById("salirCuadrodialogo");
+let salirCuadroDialogo=document.getElementById("salirCuadro");
 botonChatear.addEventListener("click",()=>{
     botonChatear.classList.remove("chatear");
     botonChatear.classList.add("chatearInvisible");
