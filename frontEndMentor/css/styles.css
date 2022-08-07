@@ -1,41 +1,60 @@
 .contenido{
     display: grid;
-    grid-template: "imgp imgp imgp imgp imgp imgp imgp vmd  vlt  vlt  vlt  vlt  vlt  " 30px
-                   "imgp imgp imgp imgp imgp imgp imgp vmd  prr1 prr1 prr1 prr1 prr1 " 30px
-                   "imgp imgp imgp imgp imgp imgp imgp vmd  tit  tit  tit  tit  tit  " 30px
-                   "imgp imgp imgp imgp imgp imgp imgp vmd  prr2 prr2 prr2 prr2 prr2 " 30px
-                   "imgp imgp imgp imgp imgp imgp imgp vmd  prec prec prec prec prec " 30px
-                   "imgp imgp imgp imgp imgp imgp imgp vmd  v1   v1   v1   v1   v1   " 30px
-                   "imgp imgp imgp imgp imgp imgp imgp vmd  mi   cero plu  emp  car  " 30px
-                   "img1 empm img2 emp2 img3 emp3 img4 vmd  mi   cero plu  emp  car  " 30px/
-                    30px 10px 30px 10px 30px 10px 30px 50px 5px  5px  5px  5px  30px
+    position: relative;
+    grid-template: "imgp  imgp imgp  imgp imgp  imgp imgp  vmd  vlt  vlt  vlt  vlt  vlt  " 72px
+                   "imgp  imgp imgp  imgp imgp  imgp imgp  vmd  prr1 prr1 prr1 prr1 prr1 " 72px
+                   "imgp  imgp imgp  imgp imgp  imgp imgp  vmd  tit  tit  tit  tit  tit  " 72px
+                   "imgp  imgp imgp  imgp imgp  imgp imgp  vmd  prr2 prr2 prr2 prr2 prr2 " 100px
+                   "imgp  imgp imgp  imgp imgp  imgp imgp  vmd  prec prec prec prec prec " 44px
+                   "imgp  imgp imgp  imgp imgp  imgp imgp  vmd  v1   v1   v1   v1   v1   " 72px
+                   "imgp  imgp imgp  imgp imgp  imgp imgp  vmd  vcd  vcd  vcd  vcd  vcd  " 72px
+                   "vcui  vcui vcui  vcui vcui  vcui vcui  vmd  cla  cla  cla  cla  cla  " 30px
+                   "img1  empm img2  emp2 img3  emp3 img4  vmd  mi   cero plu  emp  car  " 50px
+                   "img1  empm img2  emp2 img3  emp3 img4  vmd  nel  nel  nel  nel  nel  " 50px/
+                    100px 33px 100px 33px 100px 33px 100px 50px 50px 50px 50px 33px 250px
     ;
 
 }
+/*
+.lightbox{
+    display: grid;
+    grid-template: "vlt   vlt  vlt   vlt  vlt   vlt  vlt   equis " 72px
+                   "imgp  imgp imgp  imgp imgp  imgp imgp  imgp  " auto
+                   "vcui  vcui vcui  vcui vcui  vcui vcui  imgp  " 30px
+                   "img1  empm img2  emp2 img3  emp3 img4  imgp  " auto/
+                    100px 33px 100px 33px 100px 33px 100px 33px
+    ;
+}
+*/
 .imgprincipal{
 grid-area: imgp;
-height: 210px;
-width: 150px;
+height: 500px;
+width: 500px;
+border-radius: 5%;
 }
 .img1{
     grid-area: img1;
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
 }
 .img2{
     grid-area: img2;
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
 }
 .img3{
     grid-area: img3;
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
 }
 .img4{
     grid-area: img4;
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
 }
 .prr1{
     grid-area: prr1;
@@ -49,7 +68,7 @@ width: 150px;
 .precio{
     grid-area: prec;
 }
-.minus{
+.boton{
     grid-area: mi;
 }
 .cero{

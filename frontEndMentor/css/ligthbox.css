@@ -1,0 +1,49 @@
+.contenedorPrincipal{
+    background-color: rgba(64, 64, 64, .5);
+    z-index: 100;
+    position: absolute;
+}
+.ligthbox{
+    display: grid;
+    grid-template: "vlt   vlt  vlt   vlt  vlt   vlt  vlt   equis " 30px
+                   "imgp  imgp imgp  imgp imgp  imgp imgp  imgp  " 500px
+                   "vcui  vcui vcui  vcui vcui  vcui vcui  vcui  " 30px
+                   "img1  empm img2  emp2 img3  emp3 img4  vcce  " 100px/
+                    100px 33px 100px 33px 100px 33px 100px 33px
+    ;
+}
+
+.imgprincipall{
+    grid-area: imgp;
+    height: 500px;
+    width: 500px;
+    border-radius: 5%;
+}
+.equis{
+    grid-area: equis;
+}
+
+.img1l{
+    grid-area: img1;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+}
+.img2l{
+    grid-area: img2;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+}
+.img3l{
+    grid-area: img3;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+}
+.img4l{
+    grid-area: img4;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+}
