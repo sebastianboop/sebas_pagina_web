@@ -1,0 +1,63 @@
+.contenido{
+    display: grid;
+    grid-template: "imgp imgp imgp imgp imgp imgp imgp vmd  vlt  vlt  vlt  vlt  vlt  " 30px
+                   "imgp imgp imgp imgp imgp imgp imgp vmd  prr1 prr1 prr1 prr1 prr1 " 30px
+                   "imgp imgp imgp imgp imgp imgp imgp vmd  tit  tit  tit  tit  tit  " 30px
+                   "imgp imgp imgp imgp imgp imgp imgp vmd  prr2 prr2 prr2 prr2 prr2 " 30px
+                   "imgp imgp imgp imgp imgp imgp imgp vmd  prec prec prec prec prec " 30px
+                   "imgp imgp imgp imgp imgp imgp imgp vmd  v1   v1   v1   v1   v1   " 30px
+                   "imgp imgp imgp imgp imgp imgp imgp vmd  mi   cero plu  emp  car  " 30px
+                   "img1 empm img2 emp2 img3 emp3 img4 vmd  mi   cero plu  emp  car  " 30px/
+                    30px 10px 30px 10px 30px 10px 30px 50px 5px  5px  5px  5px  30px
+    ;
+
+}
+.imgprincipal{
+grid-area: imgp;
+height: 210px;
+width: 150px;
+}
+.img1{
+    grid-area: img1;
+    width: 30px;
+    height: 30px;
+}
+.img2{
+    grid-area: img2;
+    width: 30px;
+    height: 30px;
+}
+.img3{
+    grid-area: img3;
+    width: 30px;
+    height: 30px;
+}
+.img4{
+    grid-area: img4;
+    width: 30px;
+    height: 30px;
+}
+.prr1{
+    grid-area: prr1;
+}
+.contenido h1{
+    grid-area: tit;
+}
+.prr2{
+    grid-area: prr2;
+}
+.precio{
+    grid-area: prec;
+}
+.minus{
+    grid-area: mi;
+}
+.cero{
+    grid-area:cero ;
+}
+.plus{
+    grid-area: plu;
+}
+.carrito{
+    grid-area: car;
+}
