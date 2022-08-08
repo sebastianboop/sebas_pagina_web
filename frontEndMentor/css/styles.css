@@ -73,15 +73,22 @@ nav img{
 }
 .prr1{
     grid-area: prr1;
+    color: rgb(255, 125, 27);
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .contenido h1{
     grid-area: tit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .prr2{
     grid-area: prr2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .precio{
     grid-area: prec;
+    font-weight: 900;
+    font-size: 2em;
 }
 .boton{
     grid-area: mi;
@@ -94,4 +101,9 @@ nav img{
 }
 .carrito{
     grid-area: car;
+    background-color:rgb(255, 125, 27);
+    color: white;
+    border-radius: 5%;
+    border-style: none;
+    border-color: none;
 }
