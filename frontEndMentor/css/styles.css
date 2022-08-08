@@ -1,6 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .contenido{
     display: grid;
     position: relative;
+    
+    height: 100%;
     grid-template: "imgp  imgp imgp  imgp imgp  imgp imgp  vmd  vlt  vlt  vlt  vlt  vlt  " 72px
                    "imgp  imgp imgp  imgp imgp  imgp imgp  vmd  prr1 prr1 prr1 prr1 prr1 " 72px
                    "imgp  imgp imgp  imgp imgp  imgp imgp  vmd  tit  tit  tit  tit  tit  " 72px
@@ -31,6 +37,7 @@ grid-area: imgp;
 height: 500px;
 width: 500px;
 border-radius: 5%;
+cursor: pointer;
 }
 .img1{
     grid-area: img1;

@@ -1,48 +1,57 @@
-.contenedorPrincipal{
-    background-color: rgba(64, 64, 64, .5);
-    z-index: 100;
-    position: absolute;
+.ligthboxvacio{
+    display: none;
 }
 .ligthbox{
+    background-color:rgba(64, 64, 64, .4);
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+
+    z-index: 100;
+   /* position: absolute;*/
+
+
+    position: absolute;
     display: grid;
-    grid-template: "vlt   vlt  vlt   vlt  vlt   vlt  vlt   equis " 30px
-                   "imgp  imgp imgp  imgp imgp  imgp imgp  imgp  " 500px
-                   "vcui  vcui vcui  vcui vcui  vcui vcui  vcui  " 30px
-                   "img1  empm img2  emp2 img3  emp3 img4  vcce  " 100px/
-                    100px 33px 100px 33px 100px 33px 100px 33px
+    grid-template: "aut vlt   vlt  vlt   vlt  vlt   vlt  vlt   equis        et  " 30px
+                   "aut imgpl  imgpl imgpl  imgpl imgpl  imgpl imgpl  imgpl et  " 500px
+                   "aut vcui   vcui  vcui   vcui  vcui   vcui  vcui   vcui  et  " 30px
+                   "aut img1l  empml img2l  emp2l img3l  emp3l img4l  vccel et  " 100px/
+                    1fr 100px 33px 100px 33px 100px 33px 100px 33px 1fr
     ;
 }
 
 .imgprincipall{
-    grid-area: imgp;
+    grid-area: imgpl;
     height: 500px;
     width: 500px;
     border-radius: 5%;
 }
 .equis{
     grid-area: equis;
+    cursor: pointer;
 }
 
 .img1l{
-    grid-area: img1;
+    grid-area: img1l;
     width: 100px;
     height: 100px;
     border-radius: 5%;
 }
 .img2l{
-    grid-area: img2;
+    grid-area: img2l;
     width: 100px;
     height: 100px;
     border-radius: 5%;
 }
 .img3l{
-    grid-area: img3;
+    grid-area: img3l;
     width: 100px;
     height: 100px;
     border-radius: 5%;
 }
 .img4l{
-    grid-area: img4;
+    grid-area: img4l;
     width: 100px;
     height: 100px;
     border-radius: 5%;
