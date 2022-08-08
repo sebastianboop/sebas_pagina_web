@@ -13,46 +13,47 @@
 
     position: absolute;
     display: grid;
-    grid-template: "aut vlt   vlt  vlt   vlt  vlt   vlt  vlt   equis        et  " 30px
-                   "aut imgpl  imgpl imgpl  imgpl imgpl  imgpl imgpl  imgpl et  " 500px
-                   "aut vcui   vcui  vcui   vcui  vcui   vcui  vcui   vcui  et  " 30px
-                   "aut img1l  empml img2l  emp2l img3l  emp3l img4l  vccel et  " 100px/
-                    1fr 100px 33px 100px 33px 100px 33px 100px 33px 1fr
+    grid-template: "aut vlt    vlt   vlt    vlt   vlt    vlt   vlt    equis et  " 27px
+                   "aut imgpl  imgpl imgpl  imgpl imgpl  imgpl imgpl  imgpl et  " 450px
+                   "aut vcui   vcui  vcui   vcui  vcui   vcui  vcui   vcui  et  " 27px
+                   "aut img1l  empml img2l  emp2l img3l  emp3l img4l  vccel et  " 90px/
+                    1fr 90px   28px  90px   28px  90px   28px  90px   10px  1fr
     ;
 }
 
 .imgprincipall{
     grid-area: imgpl;
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
     border-radius: 5%;
 }
 .equis{
     grid-area: equis;
     cursor: pointer;
+    float: right;
 }
 
 .img1l{
     grid-area: img1l;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 5%;
 }
 .img2l{
     grid-area: img2l;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 5%;
 }
 .img3l{
     grid-area: img3l;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 5%;
 }
 .img4l{
     grid-area: img4l;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 5%;
 }
