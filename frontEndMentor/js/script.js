@@ -1,3 +1,28 @@
+
+
+let botonPlus=document.getElementById("plus");
+
+botonPlus.addEventListener("click",()=>{
+    sumar();
+})
+
+//funcion sumar
+
+function sumar(){
+    let cantidad=document.getElementById("cantidad").innerHTML;
+    cantidad=parseInt(cantidad);
+    cantidad=cantidad +1;
+    alert(cantidad);
+    document.getElementById("cantidad").innerHTML=cantidad;
+}
+
+
+
+
+
+
+//ligth Box
+
 let contenedor=document.getElementById("lightbox");
 
 let imagen=document.getElementById("imgprincipal");
@@ -11,6 +36,7 @@ salir.addEventListener("click",()=>{
     contenedor.classList.add("ligthboxvacio");
 })
 
+//cambio de imagenes
 
 let subimg1=document.getElementById('subimg1');
 let subimg2=document.getElementById('subimg2');
