@@ -13,11 +13,11 @@
 
     position: absolute;
     display: grid;
-    grid-template: "aut vlt    vlt   vlt    vlt   vlt    vlt   vlt    equis et  " 27px
-                   "aut imgpl  imgpl imgpl  imgpl imgpl  imgpl imgpl  imgpl et  " 450px
-                   "aut vcui   vcui  vcui   vcui  vcui   vcui  vcui   vcui  et  " 27px
-                   "aut img1l  empml img2l  emp2l img3l  emp3l img4l  vccel et  " 90px/
-                    1fr 90px   28px  90px   28px  90px   28px  90px   10px  1fr
+    grid-template: "aut vcoiz1 vlt    vlt   vlt    vlt   vlt    vlt   vlt    equis de4  et1  " 27px
+                   "aut ara    imgpl  imgpl imgpl  imgpl imgpl  imgpl imgpl  imgpl ars  et1 " 450px
+                   "aut vcoiz  vcui   vcui  vcui   vcui  vcui   vcui  vcui   vcui  dea  et1  " 27px
+                   "aut vcoiz  img1l  empml img2l  emp2l img3l  emp3l img4l  vccel dea  et1  " 90px/
+                    1fr 30px   90px   28px  90px   28px  90px   28px  90px   10px  30px 1fr
     ;
 }
 
@@ -27,6 +27,29 @@
     width: 450px;
     border-radius: 5%;
 }
+.imagenInvisible{
+    display: none;
+}
+/*flechas*/
+.anteriorVisible{
+    
+    height: 20px;
+    width: 20px; 
+    margin-top: 215px;
+    grid-area: ara;
+  
+}
+.siguienteVisible{
+    height: 20px;
+    width: 20px; 
+    margin-top: 215px;
+    transform: rotate(-180deg);
+    grid-area: ars;
+}
+
+
+
+
 .equis{
     grid-area: equis;
     cursor: pointer;
