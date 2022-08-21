@@ -23,7 +23,9 @@
     ;
 
 }
-
+.vcd{
+    grid-area: vcd;
+}
 .imgprincipal{
 grid-area: imgp;
 height: 420px;

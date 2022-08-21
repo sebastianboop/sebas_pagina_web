@@ -1,22 +1,54 @@
+//para los que se van a copiar solo quiero que sepan que en los cielos hay un Dios que todo lo ve.
+
+
+//botones de suma y resta
 
 
 let botonPlus=document.getElementById("plus");
-
+let botonMenos=document.getElementById("botonMenos");
 botonPlus.addEventListener("click",()=>{
     sumar();
 })
+botonMenos.addEventListener("click",()=>{
+    
+    restar();
+})
 
+//precio
+
+//function asignarPrecio(){
+    
+//let precioTotalespacio=document.getElementById("vcd").innerHTML;
+
+// let calcPrecio=125 * cantidad;
+ //document.getElementById("vcd").innerHTML=calcPrecio;
+ 
+//}
 //funcion sumar
 
 function sumar(){
     let cantidad=document.getElementById("cantidad").innerHTML;
     cantidad=parseInt(cantidad);
     cantidad=cantidad +1;
-    alert(cantidad);
+    
     document.getElementById("cantidad").innerHTML=cantidad;
+    
+ let calcPrecio=125 * cantidad;
+ document.getElementById("vcd").innerHTML="Costo Total : "+calcPrecio;
 }
 
+function restar(){
+    let cantidad=document.getElementById("cantidad").innerHTML;
+    if (cantidad>=1){
+    cantidad=parseInt(cantidad);
+    cantidad=cantidad -1;
+    
+    document.getElementById("cantidad").innerHTML=cantidad;
 
+    let calcPrecio=125 * cantidad;
+    document.getElementById("vcd").innerHTML="Costo Total : "+calcPrecio;
+    }
+}
 
 
 
